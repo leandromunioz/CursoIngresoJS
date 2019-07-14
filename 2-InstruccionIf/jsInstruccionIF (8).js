@@ -5,7 +5,10 @@ function mostrar()
     var edad;
     var estado;
     edad=parseInt(document.getElementById("edad").value);
-    estado=document.getElementById()
+    estado=document.getElementById("estadoCivil").value;
+    if ( edad > 18 && estado == "Soltero") {
+        alert("Es mayor y es soltero");
+    }
 
 
 }//FIN DE LA FUNCIÓN
